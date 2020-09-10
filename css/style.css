@@ -23,7 +23,7 @@ header{
 	background-size: cover;
 	text-align: center;
 	color: #FFF;
-	padding: 100px 0;	
+	padding: 10% 0;	
 }
 
 #hero h1{
@@ -266,3 +266,35 @@ footer #info a{
 	color: #303132;
 }
 
+.bg-contact {
+	background-image: url("../img/Rectangle-12-Copy.jpg") !important;
+}
+
+.bg-azul {
+	background-color: #4859fc;
+	padding: 7% 0;
+	box-shadow: 0px 10px 20px 5px #ddd;
+	color: #fff;
+	text-align: center;
+}
+
+#contactinfo {
+	margin-top: -7%;
+}
+
+#contactform input, #contactform textarea{
+	background-color: #eee;
+	border-radius: 0;
+	padding: 25px 10px;
+}
+
+#contactform select{
+	background-color: #eee;
+	border-radius: 0;
+}
+
+.bg-products {
+	background-image: url("../img/Headphone-2.jpg") !important;
+	background-size: contain !important;
+	background-color: #000000;
+}
