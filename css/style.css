@@ -298,3 +298,48 @@ footer #info a{
 	background-size: contain !important;
 	background-color: #000000;
 }
+
+.producto {
+	position: relative;
+}
+
+.producto-nombre {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #4859fc;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto:hover .producto-nombre {
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto-watch {
+	position: absolute;
+	height: 100%;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+}
+
+.producto-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.6);
+	top: 0;
+	z-index: 0;
+}
+
+.producto-nombre.bg-azul {
+	background-color: rgba(72, 89, 252, 0.75);
+}
